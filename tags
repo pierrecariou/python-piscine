@@ -9,11 +9,13 @@
 !_TAG_PROGRAM_NAME	Universal Ctags	/Derived from Exuberant Ctags/
 !_TAG_PROGRAM_URL	https://ctags.io/	/official site/
 !_TAG_PROGRAM_VERSION	5.9.0	//
+LUCKY_NUM	ex09/guess.py	/^LUCKY_NUM = 42$/;"	v
 MORSE_CODE_DICT	ex08/sos.py	/^MORSE_CODE_DICT = { ord('A'):'.- ', ord('B'):'-... ',$/;"	v
 N	ex07/filterwords.py	/^N = 0$/;"	v
+RAND_NUM	ex09/guess.py	/^RAND_NUM = random.randint(1, 99)$/;"	v
 S	ex07/filterwords.py	/^S = None$/;"	v
-SOS	ex08/sos.py	/^SOS =  ""$/;"	v
 add_recipe	ex06/recipe.py	/^def add_recipe():$/;"	f
+ask_user	ex09/guess.py	/^def ask_user():$/;"	f
 cookbook	ex06/recipe.py	/^cookbook = {$/;"	v
 delete_recipe	ex06/recipe.py	/^def delete_recipe(recipe_name):$/;"	f
 has_more_than_N_non_punctuation_chars	ex07/filterwords.py	/^def has_more_than_N_non_punctuation_chars(word, N):$/;"	f
@@ -27,6 +29,7 @@ main	ex03/count.py	/^def main():$/;"	f
 main	ex06/recipe.py	/^def main():$/;"	f
 main	ex07/filterwords.py	/^def main():$/;"	f
 main	ex08/sos.py	/^def main():$/;"	f
+main	ex09/guess.py	/^def main():$/;"	f
 my_string	ex01/exec.py	/^    my_string = ' '.join(sys.argv)$/;"	v
 number1	ex04/operation.py	/^number1 = None$/;"	v
 number2	ex04/operation.py	/^    number2 = int(sys.argv[2])$/;"	v

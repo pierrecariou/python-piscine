@@ -1,7 +1,5 @@
 import sys
 
-SOS =  ""
-
 MORSE_CODE_DICT = { ord('A'):'.- ', ord('B'):'-... ',
                     ord('C'):'-.-. ', ord('D'):'-.. ', ord('E'):'. ',
                     ord('F'):'..-. ', ord('G'):'--. ', ord('H'):'.... ',
@@ -17,14 +15,14 @@ MORSE_CODE_DICT = { ord('A'):'.- ', ord('B'):'-... ',
                     ord('0'):'----- ', ord(' '):'/ ' }
 
 def main():
-    if (len(sys.argv) < 2):
+    if len(sys.argv) < 2:
         return
     sys.argv.pop(0)
-    SOS = " ".join(sys.argv)
-    if not SOS.replace(" ", "").isalnum():
+    sos_message = " ".join(sys.argv)
+    if not sos_message.replace(" ", "").isalnum():
         return
-    SOS = SOS.upper()
-    translation = SOS.translate(MORSE_CODE_DICT)
+    sos_message = sos_message.upper()
+    translation = sos_message.translate(MORSE_CODE_DICT)
     print(translation.rstrip(translation[-1]))
 
 if __name__ == '__main__':
