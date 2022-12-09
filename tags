@@ -18,9 +18,10 @@ add_recipe	ex06/recipe.py	/^def add_recipe():$/;"	f
 ask_user	ex09/guess.py	/^def ask_user():$/;"	f
 cookbook	ex06/recipe.py	/^cookbook = {$/;"	v
 delete_recipe	ex06/recipe.py	/^def delete_recipe(recipe_name):$/;"	f
+ft_progress	ex10/loading.py	/^def ft_progress(lst):$/;"	f
 has_more_than_N_non_punctuation_chars	ex07/filterwords.py	/^def has_more_than_N_non_punctuation_chars(word, N):$/;"	f
 kata	ex05/kata00.py	/^kata = (19,42,21)$/;"	v
-kata	ex05/kata01.py	/^kata = {    $/;"	v
+kata	ex05/kata01.py	/^kata = {$/;"	v
 kata	ex05/kata02.py	/^kata = (2019, 9, 25, 3, 30)$/;"	v
 kata	ex05/kata03.py	/^kata = "The right format"$/;"	v
 kata	ex05/kata04.py	/^kata = (0, 4, 132.42222, 10000, 12345.67)$/;"	v
@@ -30,13 +31,12 @@ main	ex06/recipe.py	/^def main():$/;"	f
 main	ex07/filterwords.py	/^def main():$/;"	f
 main	ex08/sos.py	/^def main():$/;"	f
 main	ex09/guess.py	/^def main():$/;"	f
+main	ex10/loading.py	/^def main():$/;"	f
 my_string	ex01/exec.py	/^    my_string = ' '.join(sys.argv)$/;"	v
 number1	ex04/operation.py	/^number1 = None$/;"	v
 number2	ex04/operation.py	/^    number2 = int(sys.argv[2])$/;"	v
 number2	ex04/operation.py	/^number2 = None$/;"	v
 print_all_recipe_names	ex06/recipe.py	/^def print_all_recipe_names():$/;"	f
 print_recipe	ex06/recipe.py	/^def print_recipe(recipe_name):$/;"	f
-python.linting.enabled	.vim/coc-settings.json	/^  "python.linting.enabled": true$/;"	b
-python.linting.pylintEnabled	.vim/coc-settings.json	/^  "python.linting.pylintEnabled": true,$/;"	b
 run	ex06/recipe.py	/^def run():$/;"	f
 text_analyzer	ex03/count.py	/^def text_analyzer(text=None):$/;"	f

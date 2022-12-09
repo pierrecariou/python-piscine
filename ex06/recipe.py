@@ -36,8 +36,8 @@ def print_all_recipe_names():
 def print_recipe(recipe_name):
     if recipe_name in cookbook:
         print(f"{recipe_name}:")
-        print(f"Ingredients: {', '.join(cookbook.get(recipe_name).get('ingredients'))}")
-        print(f"Type: {cookbook.get(recipe_name).get('meal')}")
+        print(f"Ingredients: {', '.join(cookbook[recipe_name]['ingredients'])}")
+        print(f"Type: {cookbook[recipe_name]['meal']}")
         print(f"Time: {cookbook[recipe_name]['prep_time']} minutes")
     else:
         print(f"Recipe {recipe_name} does not exist")

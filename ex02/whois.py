@@ -1,7 +1,7 @@
 import sys
 
 if (len(sys.argv) == 1):
-    sys.exit() 
+    sys.exit()
 try:
     number = int(sys.argv[1])
 except ValueError:
